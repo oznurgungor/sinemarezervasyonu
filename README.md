@@ -1,1 +1,1 @@
-![resim](images/Ads%C4%B1z.png)
+![resim](images/Adsız.png)
