@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sinema rezervasyonu</title>
+</head>
+<body>
+    
+ <div class="container">
+     <div class="ekran"></div>
+     <div class="row"> <!--class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+         <div class="kolon"></div>
+         <div class="kolon"></div>
+         <div class="kolon selected"></div>
+         <div class="kolon selected"></div>
+         <div class="kolon"></div>
+         <div class="kolon"></div>
+         <div class="kolon"></div>
+         <div class="kolon"></div>
+     </div>
+     <div class="row"> <!-- row lar birer satırdır. class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon reserved"></div>
+        <div class="kolon reserved"></div>
+        <div class="kolon"></div>
+    </div>
+    <div class="row"> <!--class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+    </div>
+    <div class="row"> <!--class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+    </div>
+    <div class="row"> <!--class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+    </div>
+    <div class="row"> <!--class kolon olan her bir etiketi koltuk numarasini gosterir   -- burasi birinci sira olarak algilayalim-->
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+        <div class="kolon"></div>
+    </div>
+ </div>
+
+<div class="film-liste">
+    <select  id="film">
+        <option value="filmler">film seçiniz</option>
+        <option value="20">film1</option>
+        <option value="25">film2</option>
+        <option value="30">film3</option>
+    </select>
+</div>
+
+<ul class="secim">
+
+    <li>
+       <div class="kolon selected"></div>
+       <small>seçili</small>
+    </li>
+    <li>
+        <div class="kolon "></div>
+        <small>boş</small>
+     </li>
+     <li>
+        <div class="kolon reserved"></div>
+        <small>dolu </small>
+     </li>
+</ul>
+ 
+<p class="text">
+    <span id="sayi"> 3 </span>
+    adet koltuk için  hesaplanan ücret <span id="miktar"> 60 </span> TL.
+</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
