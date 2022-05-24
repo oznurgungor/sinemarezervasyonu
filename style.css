@@ -1,18 +1,19 @@
 body{
-    background-color: rgb(41, 51, 51);
+    background-size: cover;
+    background-image: url("images/a.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    color: aliceblue;
+    color: rgb(1, 6, 10);
 }
 
 .kolon{
-    background-color:darkgray;
-    height: 15px;
-    width: 15px;
+    background-color:rgba(187, 28, 28, 0.534);
+    height: 30px;
+    width: 30px;
     margin: 4px;
     border-radius: 4px;
 }
@@ -24,12 +25,12 @@ body{
 }
 
 .kolon.selected {  
-   background-color: darkkhaki;
+   background-color: rgb(207, 196, 43);
 }
 
 .kolon.reserved{
 
-     background-color: ghostwhite;
+     background-color: rgb(182, 182, 230);
 }
 
 .kolon:nth-of-type(2)
@@ -46,10 +47,10 @@ body{
 }
 
 .ekran{
-    background-color: aliceblue;
-    height: 60px;
+    background-color: rgb(40, 81, 117);
+    height: 100px;
     width: 100%;
-    margin: 20px 0;
+    margin: 40px 0;
     box-shadow: 0 3px 8px rgba(132, 41, 218, 0.7) ;
 }
 
@@ -61,7 +62,7 @@ body{
 {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 5 10px;
-    color: darkgray;
+    color: rgb(22, 1, 1);
     display: flex;
 }
 
@@ -72,5 +73,5 @@ body{
     margin: 0 10px;
 }
 .text span{
-    color: rgb(172, 190, 120);
+    color: rgb(40, 51, 207);
 }

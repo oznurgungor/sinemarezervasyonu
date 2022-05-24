@@ -1,0 +1,1 @@
+![resim](images/Ads%C4%B1z.png)
